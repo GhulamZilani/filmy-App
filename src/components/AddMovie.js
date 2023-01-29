@@ -44,7 +44,6 @@ const AddMovie=()=> {
         description: "",
         image: "",
         youtube: ""
-
       })
 
 

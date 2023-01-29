@@ -33,6 +33,7 @@ const Details = () => {
         {loading ? <div className='h-96 flex w-full justify-center items-center'><ThreeCircles height={25} color="white"/>
             </div>:
             <>
+            <div className='w-full'>
         <img className='h-96 block sticky top-24' alt='demo' src={data.image}/>
         <div className='md:ml-4 ml-0 w-full md:w-1/2'>
             <h1 className='text-3xl font-bold text-gray-400'>{data.title}: <span className='text-xl'> 
@@ -48,8 +49,9 @@ const Details = () => {
             </p>
 
         </div>
-        <div className='col-12'>
-        <iframe width="560" height="315" src={data?.youtube} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div className='w-full'>
+            <iframe width="560" height="315" src={data?.youtube} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         </>
         }
