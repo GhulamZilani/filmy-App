@@ -4,7 +4,7 @@ module.exports = function override(config, env) {
     //do stuff with the webpack config...
 
     config.resolve.fallback = {
-        crypto: false,
+        crypto: require.resolve('crypto-browserify')
     };
     config.plugins.push(
         new webpack.ProvidePlugin({
