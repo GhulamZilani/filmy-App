@@ -46,6 +46,10 @@ const Details = () => {
             <p className='mt-3'>{data.description} 
             <Reviews id={id} prevRating={data.rating} userRated={data.rated}/>
             </p>
+
+        </div>
+        <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lLeZ8Cr2YVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         </>
         }
