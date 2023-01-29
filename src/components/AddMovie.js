@@ -63,7 +63,7 @@ const AddMovie=()=> {
       <div class="flex flex-wrap -m-2">
         <div class="p-2 w-1/2">
           <div class="relative">
-            <label for="name" class="leading-7 text-sm text-gray-600">Title
+            <label for="name" class="leading-7 text-sm  text-white">Title
             </label>
             <input type="name" id="name" name="name" 
             value={form.title}
@@ -73,7 +73,7 @@ const AddMovie=()=> {
         </div>
         <div class="p-2 w-1/2">
           <div class="relative">
-            <label for="email" class="leading-7 text-sm text-gray-600">Year</label>
+            <label for="email" class="leading-7 text-sm text-white">Year</label>
             <input type="email" id="email" name="email" 
              value={form.year}
              onChange={(e)=>setForm({...form, year: e.target.value})}
@@ -83,7 +83,7 @@ const AddMovie=()=> {
         </div>
         <div class="p-2 w-full">
           <div class="relative">
-            <label for="message" class="leading-7 text-sm text-gray-600">
+            <label for="message" class="leading-7 text-sm text-white">
               Image Link</label>
             <input id="message" name="message"
              value={form.image}
@@ -95,8 +95,8 @@ const AddMovie=()=> {
         
         <div class="p-2 w-full">
           <div class="relative">
-            <label for="message" class="leading-7 text-sm text-gray-600">
-              Image Link</label>
+            <label for="message" class="leading-7 text-sm text-white">
+              YouTube Link</label>
             <input id="message" name="message"
              value={form.youtube}
              onChange={(e)=>setForm({...form, youtube: e.target.value})} 
@@ -106,7 +106,7 @@ const AddMovie=()=> {
         </div>
         <div class="p-2 w-full">
           <div class="relative">
-            <label for="message" class="leading-7 text-sm text-gray-600">Description</label>
+            <label for="message" class="leading-7 text-sm text-white">Description</label>
             <textarea id="message" name="message"
              value={form.description}
              onChange={(e)=>setForm({...form, description: e.target.value})} 
