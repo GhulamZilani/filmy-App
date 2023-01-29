@@ -80,7 +80,7 @@ const Reviews=({id, prevRating, userRated}) =>{
 
         }
         getData();
-    },[newAdded])
+    },[newAdded, id])
     return (
     <div className='mt-4 border-t-2 border-gray-700 w-full'>
         <ReactStars

@@ -34,7 +34,7 @@ const Card=()=> {
         return(
           <Link to={`/details/${e.id}`} >
             <div key={i} className='card font-medium shadow-lg p-2 hover:-translate-y-4 cursor-pointer mt-6 transition-all duration-500'>
-              <img className='h-60 md:h-72' src={e.image}/>
+              <img alt='demo' className='h-60 md:h-72' src={e.image}/>
               <h1>
                 <span className='text-green-500'>Name:</span>
               {e.title}

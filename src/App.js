@@ -3,7 +3,7 @@ import Card from "./components/Card";
 import AddMovie from './components/AddMovie'
 import {Route,Routes} from 'react-router-dom'
 import Details from "./components/Details";
-import { createContext, useEffect, useState } from "react";
+import { createContext, useState } from "react";
 import Login from './components/Login'
 import Signup from './components/Signup'
 

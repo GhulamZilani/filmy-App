@@ -27,7 +27,7 @@ const Details = () => {
 
         }
         getData();
-    },[])
+    },[id])
   return (
     <div className='p-4 mt-4 flex flex-col md:flex-row items-center md:items-start w-full justify-center'>
         {loading ? <div className='h-96 flex w-full justify-center items-center'><ThreeCircles height={25} color="white"/>
